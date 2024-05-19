@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    width: 100%;
+    height: 100%;
+}
+
+header{
+	position: fixed;
+	align-items: center;
+    top: 0%;
+    left: 0%;
+	width: 100%;
+	height: 8%;
+	border-bottom: 1px black solid;
+	background-color: rgb(37, 37, 37, 0.9);
+	backdrop-filter: blur(5px);
+	z-index: 100;
+	box-shadow: 0px 3px 0px rgb(52, 52, 52, 0.3);
+}
+
+a{
+	text-decoration: none;
+}
+
+.header_ul{
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.li_header_1, .li_header_2, .li_header_3, .li_header_4{
+	top: 10px;
+	color: rgba(28,28,28,0);
+}
+
+.buttons_header_1, .buttons_header_2, .buttons_header_3, .buttons_header_4, .buttons_header_5{
+	background-color: rgba(28,28,28,0);
+	border: 0px solid black;
+	cursor: pointer;
+}
+
+.buttons_header_5{
+	position: absolute;
+	left: 87%;
+	top: 37.2%;
+}
+
+.img_header{
+	width: 212px;
+	height: 35px;
+    margin: 0 auto;
+    display: block;
+    position: absolute;
+	top: 28%;
+	left: 3%;
+}
+
+.text_header_1, .text_header_2, .text_header_3, .text_header_4, .text_header_5{
+	font-family: "Montserrat", sans-serif;
+  	font-optical-sizing: auto;
+  	font-weight: 650;
+  	font-style: normal;
+	color: white;
+	font-size: 13px;
+	padding-left: 12px;
+}
+
+.text_header_5{
+	padding-left: 0px;
+}
